@@ -48,6 +48,10 @@
     <Compile Include="MainMenu\MainMenu.cs" />
     <Compile Include="Operations\BasicOperationService.cs" />
     <Compile Include="Operations\IBasicOperationService.cs" />
+    <Compile Include="Operations\IPowerService.cs" />
+    <Compile Include="Operations\IRootService.cs" />
+    <Compile Include="Operations\PowerService.cs" />
+    <Compile Include="Operations\RootService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
