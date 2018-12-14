@@ -43,12 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-  	<Compile Include="MainMenu\MainMenu.cs" />
+    <Compile Include="Calculator\Calculator.cs" />
+    <Compile Include="Calculator\ICalculator.cs" />
+    <Compile Include="MainMenu\MainMenu.cs" />
+    <Compile Include="Operations\BasicOperationService.cs" />
+    <Compile Include="Operations\IBasicOperationService.cs" />
+    <Compile Include="Operations\IPowerService.cs" />
+    <Compile Include="Operations\IRootService.cs" />
+    <Compile Include="Operations\PowerService.cs" />
+    <Compile Include="Operations\RootService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
