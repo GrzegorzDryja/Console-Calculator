@@ -54,7 +54,9 @@
   <ItemGroup>
     <Compile Include="Calculator\Calculator.cs" />
     <Compile Include="Calculator\ICalculator.cs" />
-    <Compile Include="Installers\BasicOperationServiceInstaller.cs" />
+    <Compile Include="DI\Installer.cs" />
+    <Compile Include="Installers\KalkulatorInstaller.cs" />
+    <Compile Include="MainMenu\IMainMenu.cs" />
     <Compile Include="MainMenu\MainMenu.cs" />
     <Compile Include="Operations\BasicOperationService.cs" />
     <Compile Include="Operations\IBasicOperationService.cs" />
@@ -68,12 +70,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Kalkulator.DI\Kalkulator.DI.csproj">
-      <Project>{f8d45bf3-ab98-4efc-b0d3-cb103c7e034e}</Project>
-      <Name>Kalkulator.DI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

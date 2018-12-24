@@ -6,9 +6,8 @@ namespace Kalkulator
     {
         static void Main(string[] args)
         {
-            new Installer().Run();
+            var mainMenu = new Installer().Run();
 
-            var mainMenu = new Kalkulator.MainMenu.MainMenu();
             mainMenu.Run();
         }
     }
