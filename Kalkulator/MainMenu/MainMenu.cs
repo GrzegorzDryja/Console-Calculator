@@ -2,7 +2,7 @@ using System;
 
 namespace Kalkulator.MainMenu
 {
-    public class MainMenu
+    public class MainMenu : IMainMenu
     {
         public void Run()
         {
@@ -20,8 +20,8 @@ namespace Kalkulator.MainMenu
 
         private void GetUserString()
         {
-            string insertEquation = Console.ReadLine(); 
-            GetAlgebraicExpressionFromString(insertEquation);            
+            string insertEquation = Console.ReadLine();
+            GetAlgebraicExpressionFromString(insertEquation);
         }
 
         private void GetAlgebraicExpressionFromString(string insertEquation)

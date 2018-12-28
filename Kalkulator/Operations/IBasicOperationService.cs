@@ -1,6 +1,6 @@
 ﻿namespace Kalkulator.Operations
 {
-    interface IBasicOperationService
+    public interface IBasicOperationService
     {
         float Addition(float a, float b);
         float Subtraction(float a, float b);

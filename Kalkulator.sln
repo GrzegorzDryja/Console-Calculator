@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator", "Kalkulator\Ka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator.Tests", "Kalkulator.Tests\Kalkulator.Tests.csproj", "{ED319D4E-2755-4F90-AC49-D415AD9F8862}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator.Tests.BDD", "Kalkulator.Tests.BDD\Kalkulator.Tests.BDD.csproj", "{943A8940-AB4B-45BD-9143-DD215BD21E0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ED319D4E-2755-4F90-AC49-D415AD9F8862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED319D4E-2755-4F90-AC49-D415AD9F8862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED319D4E-2755-4F90-AC49-D415AD9F8862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943A8940-AB4B-45BD-9143-DD215BD21E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943A8940-AB4B-45BD-9143-DD215BD21E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943A8940-AB4B-45BD-9143-DD215BD21E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943A8940-AB4B-45BD-9143-DD215BD21E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
